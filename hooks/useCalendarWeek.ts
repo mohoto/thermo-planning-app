@@ -27,3 +27,5 @@ export default function useEventCalendarWeek() {
     return { 
         date, changeWeek, currentWeek, setCurrentWeek
      };
+
+}
