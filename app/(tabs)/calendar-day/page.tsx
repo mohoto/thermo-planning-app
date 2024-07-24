@@ -13,7 +13,7 @@ function CalendarDay({}: Props) {
   return (
     <div className="h-full relative px-6">
       <div className="justify-center items-center">
-        <div className="mb-20 fixed top-16 left-0 z-20 w-full px-4">
+        <div className="mb-20 fixed top-12 left-0 z-20 w-full px-4">
           <ControlDay currentDay={currentDay} changeDay={changeDay} />
         </div>
       </div>
