@@ -1,16 +1,3 @@
-/* import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
- 
-// This function can be marked `async` if using `await` inside
-export function middleware(request: NextRequest) {
-  return NextResponse.redirect(new URL('/home', request.url))
-}
- 
-// See "Matching Paths" below to learn more
-export const config = {
-  matcher: '/about/:path*',
-} */
-
 import { type NextRequest } from 'next/server'
 import { updateSession } from '@/utils/supabase/middleware'
 
@@ -31,13 +18,3 @@ export const config = {
     '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
 }
-
-/* import { NextResponse, NextRequest } from 'next/server'
- 
-export function middleware(request: NextRequest) {
-  return NextResponse.redirect(new URL('/home', request.url))
-}
- 
-export const config = {
-  matcher: '/about/:path*',
-} */
