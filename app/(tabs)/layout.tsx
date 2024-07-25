@@ -35,7 +35,7 @@ export default function TabsRootLayout({
                 </Link>
                 <Link 
                 className="flex flex-col items-center transition ease-in duration-200 hover:text-blue-400"
-                href="/infos"
+                href="/infos/replanifie"
                 >
                     <BsFillInfoSquareFill className="w-8 h-8" />
                 </Link>
